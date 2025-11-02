@@ -6,7 +6,7 @@ AccelStepper stepper(AccelStepper::HALF4WIRE, 7, 5, 6, 4);
 
 const int ypin = A1;
 const int xpin = A0;
-const int zeropos = 512;
+const int zeropos = 513;
 const int buffer = 50;
 const int Speedpin = 3;
 const int upbutt = 2;
