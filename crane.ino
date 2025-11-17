@@ -42,7 +42,7 @@ void setup() {
 
 void loop() {
   // DC motor control (lifting/lowering)
-  if (angle >= 50) {
+  if (angle >= 50) { // only allow winch control when servo arm is lowered
     if (digitalRead(upbutt) == LOW) {
       analogWrite(Speedpin, 150);
       digitalWrite(uptrigg, HIGH);
